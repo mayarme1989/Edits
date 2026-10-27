@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                     showFragment(new HomeFragment());
                     return true;
                 } else if (id == R.id.nav_add) {
-                    showFragment(new AddFragment());
+                    showFragment(new AddEditFragment());
                     return true;
                 } else if (id == R.id.nav_show) {
                     showFragment(new ShowFragment());
